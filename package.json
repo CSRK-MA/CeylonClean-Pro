@@ -1,19 +1,17 @@
 {
   "name": "vite-react-typescript-starter",
+  "homepage": "https://CSRK-MA.github.io/CeylonClean-Pro/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://CSRK-MA.github.io/CeylonClean-Pro",
-
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist --branch gh-pages --repo https://github.com/CSRK-MA/CeylonClean-Pro.git --remote origin"
+    "deploy": "gh-pages -d dist"
   },
-
-
   "dependencies": {
     "axios": "^1.6.0",
     "date-fns": "^3.0.0",
